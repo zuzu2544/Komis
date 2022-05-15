@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>carlooz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="marginxd">
+        <!--<div class="button-borders">
+            <button class="primary-button"> log in
+            </button>
+        </div>-->
+        <a class="fancy" class="button1" href="#" id="button1" onclick="logowanie()">
+            <span class="top-key"></span>
+            <span class="text">log in</span>
+            <span class="bottom-key-1"></span>
+            <span class="bottom-key-2"></span>
+          </a>
+    </div>
+    <div class="marginxd">
+        <!--<div class="button-borders">
+            <button class="primary-button"> sign in
+            </button>
+        </div>-->
+        <a class="fancy" class="button2" href="#" id="button2" onclick="rejestracja()">
+            <span class="top-key"></span>
+            <span class="text">sign in</span>
+            <span class="bottom-key-1"></span>
+            <span class="bottom-key-2"></span>
+          </a>
+    </div>
+    <div class="logowanie" id="logowanie">
+        <div class="blok1">
+            <img src="close.png" alt="x" class="x" id="x" onclick="cos()">
+            <div class="kolo">
+                <img src="log.svg" alt="avatar" class="avatar">
+            </div>
+            <div  >
+                <form action="POST" class="form">
+                    <input type="text" placeholder="nazwa"><br><br>
+                    <input type="password" placeholder="hasło">
+                    <button class="login">Zaloguj się</button>
+                    <a class="rej" onclick="rejestracja()">Zarejestruj się</a>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="rejestracja" id="rejestracja">
+        <div class="blok1">
+            <img src="close.png" alt="x" class="x" id="x" onclick="cos()">
+            <div class="kolo">
+                <img src="log.svg" alt="avatar" class="avatar">
+            </div>
+            <div  >
+                <form action="POST" class="formm">
+                    <input type="text" placeholder="nazwa">
+                    <input type="password" placeholder="hasło">
+                    <input type="password" placeholder="powtórz hasło">
+                    <input type="email" placeholder="email">
+                    <button class="rejestr">Zarejestruj się</button>
+                    <a class="log" onclick="logowanie()">Zaloguj się</a>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="logowanko.js"></script>
+</body>
+</html>

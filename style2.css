@@ -1,0 +1,238 @@
+html
+{
+    height: auto;
+    background-color: #d4dce2;
+    width: auto;
+    box-sizing: border-box;
+}
+
+body
+{
+    height: 100%;
+    margin: 0px;
+    position: relative;
+}
+
+.icon
+{
+    height: 2.8vh;
+    float: left;
+    margin: 4.1vh 0vh 0vh 4.1vh;
+    cursor: pointer;
+}
+
+.logo
+{
+    height: 7vh;
+    float: left;
+    margin-top: 1.5vh;
+    margin-left: 4vh;
+}
+
+.avatar
+{
+    height: 4vh;
+    float: right;
+    margin: 3vh 4.1vh 0vh 0vh;
+}
+
+.wyloguj
+{
+    font-size: 2vh;
+    float: right;
+    margin: 4vh 2.5vh 0vh 0vh;
+}
+
+.baner
+{
+    width: 75%;
+    height: 10%;
+    float: right;
+}
+
+.sbox
+{
+    width: 88%;
+    margin: 20vh 2vh 0vh 0vh;
+}
+
+.nag
+{
+    width: auto;
+    font-size: 2.7vh;
+    float: left;
+    margin: 0px;
+}
+
+.sortuj
+{
+    width: auto;
+    font-size: 2.7vh;
+    margin: 0px;
+    float: right;
+}
+
+.sortowanie
+{
+    width: auto;
+    float: right;
+    cursor: pointer;
+}
+
+.arrow
+{
+    width: 2.5vh;
+    padding: 0.5vh;
+    float: right;
+}
+
+.box
+{
+    width: 75%;
+    height: auto;
+    padding-top: 1vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    float: right;
+}
+
+.oferta
+{
+    height: 20vh;
+    width: 90%;
+    border: solid 0.3vh #2F5877;
+    border-radius: 3vh;
+    background-color: hsla(207, 32%, 41%, 0.03);
+    margin-bottom: 2vh;
+}
+
+.zdj
+{
+    height: 17vh;
+    margin: 1.5vh 3vh 1.5vh 1.5vh;
+    border-radius: 2vh;
+    float: left;
+}
+
+.info
+{
+    float: left;
+}
+
+.tytul
+{
+    font-size: 3vh;
+    margin: 0vh;
+    padding-top: 2.5vh;
+    padding-bottom: 0.5vh;
+}
+
+.inf
+{
+    font-size: 2vh;
+}
+
+.cena
+{
+    float: right;
+    font-size: 4.5vh;
+    margin: 12vh;
+}
+
+.gradient
+{
+    background: linear-gradient(180deg, rgba(47,88,119,0) 22%, rgba(47,88,119,0.8) 100%);
+    margin-top: -6vh;
+    height: 6vh;
+    width: 100%;
+    position: sticky;
+    bottom: 0;
+}
+
+.filtry
+{
+    height: 100vh;
+    width: 25%;
+    background-color: #2F5877;
+    float: left;
+    position: fixed;
+}
+
+.f
+{
+    height: 100%;
+    background-color: transparent;
+    padding-top: 25%;
+    padding-left: 14%;
+    padding-right: 14%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+h1
+{
+    font-size: 4vh;
+}
+
+label, .km
+{
+    font-size: 2.5vh;
+}
+
+.km
+{
+    margin-left: 1vh;
+}
+
+select
+{
+    height: 3vh;
+    margin-left: 2vh;
+    border-radius: 1000px;
+    font-size: 1.5vh;
+    padding: 0.5vh 1vh;
+    width: auto;
+    border: none;
+}
+
+input
+{
+    height: 2vh;
+    margin-left: 2vh;
+    margin-right: 2vh;
+    border-radius: 1000px;
+    font-size: 1.5vh;
+    padding: 0.5vh 1vh;
+    width: 6vh;
+    border: none;
+}
+
+input:active
+{
+
+}
+
+#przebieg
+{
+    width: 9vh;
+}
+
+.opcja
+{
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.zastosuj
+{
+    width: 100%;
+    height: 5vh;
+    border-radius: 1000px;
+    border: none;
+    font-size: 2.5vh;
+    margin-top: 4vh;
+}
