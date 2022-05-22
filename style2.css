@@ -13,17 +13,9 @@ body
     position: relative;
 }
 
-.icon
-{
-    height: 2.8vh;
-    float: left;
-    margin: 4.1vh 0vh 0vh 4.1vh;
-    cursor: pointer;
-}
-
 .logo
 {
-    height: 7vh;
+    height: 9vh;
     float: left;
     margin-top: 1.5vh;
     margin-left: 4vh;
@@ -31,16 +23,16 @@ body
 
 .avatar
 {
-    height: 4vh;
+    height: 6vh;
     float: right;
-    margin: 3vh 4.1vh 0vh 0vh;
+    margin: 3.3vh 4.1vh 0vh 0vh;
 }
 
 .wyloguj
 {
-    font-size: 2vh;
+    font-size: 3vh;
     float: right;
-    margin: 4vh 2.5vh 0vh 0vh;
+    margin: 5vh 2.5vh 0vh 0vh;
 }
 
 .baner
@@ -53,13 +45,13 @@ body
 .sbox
 {
     width: 88%;
-    margin: 20vh 2vh 0vh 0vh;
+    margin: 18vh 2vh 1vh 0vh;
 }
 
 .nag
 {
     width: auto;
-    font-size: 2.7vh;
+    font-size: 3vh;
     float: left;
     margin: 0px;
 }
@@ -67,7 +59,7 @@ body
 .sortuj
 {
     width: auto;
-    font-size: 2.7vh;
+    font-size: 3vh;
     margin: 0px;
     float: right;
 }
@@ -130,7 +122,8 @@ body
 
 .inf
 {
-    font-size: 2vh;
+    font-size: 2.3vh;
+    margin-top: 0.5vh;
 }
 
 .cena
@@ -178,7 +171,7 @@ h1
 
 label, .km
 {
-    font-size: 2.5vh;
+    font-size: 2.7vh;
 }
 
 .km
@@ -189,7 +182,7 @@ label, .km
 select
 {
     height: 3vh;
-    margin-left: 2vh;
+    margin-left: 1.5vh;
     border-radius: 1000px;
     font-size: 1.5vh;
     padding: 0.5vh 1vh;
@@ -200,18 +193,13 @@ select
 input
 {
     height: 2vh;
-    margin-left: 2vh;
-    margin-right: 2vh;
+    margin-left: 1.5vh;
+    margin-right: 1.5vh;
     border-radius: 1000px;
     font-size: 1.5vh;
     padding: 0.5vh 1vh;
     width: 6vh;
     border: none;
-}
-
-input:active
-{
-
 }
 
 #przebieg
